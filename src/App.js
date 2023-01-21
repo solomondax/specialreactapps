@@ -12,7 +12,7 @@ function App() {
    setData( e.target.name)
   } 
 
-  const inputHand = (e) => {
+  const inputHannd = (e) => {
     setData(  e.target.value)
     
   }
@@ -28,7 +28,7 @@ function App() {
       <form onSubmit={submitHandler}>
         <input type="text" value={username} name="username" onChange={inputHandler} />
         <br />
-        <input type="password" value={password} name ="password" onChange={inputHand}/><br />
+        <input type="password" value={password} name ="password" onChange={inputHannd}/><br />
         <input type="submit" name ="sumit"/>
       </form>
     </center>
