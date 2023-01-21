@@ -1,0 +1,26 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(206, 181, 185);
+  width: 1000px;
+  border-radius: 10px;
+}
+
+.list-continair {
+  list-style-type: none;
+}
+.heading {
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.dax {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
